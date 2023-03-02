@@ -9,8 +9,8 @@ namespace RPSLS
     internal class Game
     {
         //Member Variabes (HAS A)
-        public Player PlayerOne;
-        public Player PlayerTwo;
+        public Player playerOne;
+        public Player playerTwo;
 
         //Constructor
         public Game()
@@ -24,12 +24,12 @@ namespace RPSLS
             Console.WriteLine("Welcome to RPSLS! Here are the rules:\n");
         }
 
-        public int ChooseNumberOfPlayers()
+        public int ChooseNumberOfHumanPlayers()
         {
             return 0;
         }
 
-        public void CreatePlayerObjects(int numberOfPlayers)
+        public void CreatePlayerObjects(int numberOfHumanPlayers)
         {
 
         }
@@ -39,7 +39,7 @@ namespace RPSLS
 
         }
 
-        public void DisplayWinner()
+        public void DisplayGameWinner()
         {
 
         }
